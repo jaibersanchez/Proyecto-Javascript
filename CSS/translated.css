@@ -1,0 +1,230 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;500;600&display=swap");
+/* MISC */
+/* VARIABLES */
+/* Palette */
+/* Font Sizes */
+/* Spacings */
+/* NORMALIZE */
+* {
+  margin: 0%;
+  padding: 0rem;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 3.6em; }
+
+h2 {
+  font-size: 3em; }
+
+p {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 2em; }
+
+/* bootstrap */
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  padding-left: 0rem; }
+
+textarea {
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  line-height: sans-serif; }
+
+/* partials */
+/* HEADER */
+HEADER {
+  padding: 1rem;
+  background-color: #F1B7AD;
+  text-align: center;
+  color: #000000; }
+  HEADER .navbar {
+    display: grid;
+    justify-content: normal; }
+    HEADER .navbar .redeslogo {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 100%; }
+      HEADER .navbar .redeslogo .redes {
+        justify-self: start;
+        align-self: center;
+        animation: danzar 5s 1 ease-in-out; }
+        HEADER .navbar .redeslogo .redes .imgredes {
+          width: 48px;
+          height: 49px;
+          max-width: 100%; }
+
+@keyframes danzar {
+  50% {
+    transform: translateX(100px); }
+  75% {
+    transform: translateX(-20px); } }
+
+/* PIE DE PAGINA */
+footer .piedepacenter {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid grey; }
+  footer .piedepacenter .linea2 {
+    width: 250px;
+    margin-block: 20px;
+    margin-inline: 20px;
+    text-align: center; }
+    footer .piedepacenter .linea2 .piedepa {
+      font-size: 2em; }
+      footer .piedepacenter .linea2 .piedepa .piedepacontacto {
+        color: black; }
+
+footer .piedepa2 {
+  padding: 1rem;
+  font-size: 2em;
+  background-color: #000000;
+  text-align: center; }
+  footer .piedepa2 Small {
+    background-color: #000000;
+    padding: 1rem;
+    color: #FFFCFC;
+    text-align: center; }
+
+/* pages */
+/* menu*/
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: no-text-align;
+  gap: 40px;
+  background-color: #F1B7AD;
+  /* display: flex; */
+  /* justify-content: center;
+    flex-wrap: wrap; */
+  /* gap: 40px;  */
+  margin-top: 10px;
+  font-size: 3em; }
+  .menu .__menu {
+    color: #000000; }
+  .menu .__menu:hover {
+    transform: scale(1.2); }
+
+.banner {
+  max-width: 100%; }
+
+.titulo {
+  background-image: linear-gradient(45deg, #a3586c, #DDA1B1);
+  text-align: center;
+  border-radius: 50px;
+  margin-block: 50px;
+  transition: transform 1s;
+  cursor: pointer; }
+  .titulo:hover {
+    transform: scale(1.1); }
+
+.linea1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  gap: no-gap;
+  /*  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center; */
+  margin-block: 50px;
+  margin-inline: 20px; }
+  .linea1 .imglinea1 {
+    max-width: 100%; }
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 3em; }
+  h2 {
+    font-size: 2.5em; }
+  p {
+    font-size: 2em; }
+  .menu {
+    gap: 20px;
+    font-size: 2.5em; }
+  @keyframes danzar {
+    50% {
+      transform: translateX(10px); }
+    75% {
+      transform: translateX(-10px); } } }
+
+/* Nosotros */
+.bienvenido {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 70px; }
+  .bienvenido .bienvenido1 {
+    grid-column: 2; }
+    .bienvenido .bienvenido1 .bienvenido2 {
+      margin-top: 30px; }
+
+/* catalogo */
+.catalogo {
+  width: 334px;
+  height: 399px;
+  max-width: 100%; }
+
+/* Tiendas */
+.descripcion {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-block: 50px;
+  margin-inline: 20px; }
+  .descripcion .cuadro {
+    width: 290px; }
+  .descripcion .imgtienda {
+    width: 405px;
+    height: 399px;
+    max-width: 100%; }
+
+/* Contacto */
+.comentarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-block: 40px;
+  width: 100%; }
+  .comentarios .comentarios1 {
+    text-align: justify;
+    margin-block: 20px;
+    margin-inline: 50px; }
+    .comentarios .comentarios1 .comentarios2 {
+      margin-bottom: 30px; }
+  .comentarios .diligenciar {
+    margin-inline-start: 40px;
+    box-sizing: border-box;
+    margin-block: 20px;
+    margin-inline: 50px;
+    font-size: 2em; }
+    .comentarios .diligenciar .diligenciar1 {
+      margin-bottom: 70px; }
+      .comentarios .diligenciar .diligenciar1 input, .comentarios .diligenciar .diligenciar1 textarea {
+        margin: 0;
+        width: 100%; }
