@@ -1,0 +1,15 @@
+[
+    {
+        "precio": 80000,
+        "id": 1,
+        "title": "Kit de brochas profesional X 18 unidades",
+        "img": "./img/Promoción 1.jpg"
+    },
+    {
+        "precio": 20000,
+        "id": 2,
+        "title": "Sombra para entradas",
+        "img": "./img/Promoción 2.jpg"
+    }
+]
+

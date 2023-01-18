@@ -1,0 +1,39 @@
+[
+    {
+        "precio": 30000,
+        "id": 1,
+        "title": "Desenredante termoprotector",
+        "img": "./img/Capilar1.png"
+    },
+    {
+        "precio": 40000,
+        "id": 2,
+        "title": "Tónico revitalizante",
+        "img": "./img/Capilar2.png"
+    },
+    {
+        "precio": 25000,
+        "id": 3,
+        "title": "Paleta de sombras dreamy",
+        "img": "./img/Maquillaje1.png"
+    },
+    {
+        "precio": 45000,
+        "id": 4,
+        "title": "Paleta de sombras perfect mix",
+        "img": "./img/Maquillaje2.png" 
+    },
+    {
+        "precio": 30000,
+        "id": 5,
+        "title": "Suero facial vitamina C",
+        "img": "./img/Cuidadoparalapiel1.png"
+    },
+    {
+        "precio": 18000,
+        "id": 6,
+        "title": "Tónico facial",
+        "img": "./img/Cuidadoparalapiel2.png"
+    }
+]
+
